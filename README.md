@@ -33,21 +33,21 @@ any2go json --sample data.yaml --name Config --output configs/types.go
 
 ## 📋 Features
 
-### ✅ Available Now (MVP)
+### Phase 1
 - **JSON to Go structs** with proper `json:` tags
 - Intelligent type inference (`string` → `time.Time`, `"123"` → `int`)
 - Nested struct generation
 - Package declaration
 - Output to stdout or file
 
-### 🚧 Coming Soon (Phase 2)
+### Phase 2
 - **API client generation** (HTTP functions with error handling)
 - **YAML support** for config files
 - **CSV/TSV support** for data files
 - **Struct updates** (add new fields to existing structs)
 - **SQL tags** for database models (`db:"column_name"`)
 
-### 🔮 Future Vision
+### Phase 3
 - **OpenAPI/Swagger integration** (generate entire SDKs)
 - **Protocol Buffers support**
 - **GraphQL schema conversion**
