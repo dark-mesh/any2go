@@ -1,0 +1,11 @@
+{
+    "name": "Jack",
+    "surname": "Johnson",
+    "sex": "M",
+    "favNumber": 13,
+    "favColor": "Blue",
+    "birthday": "29.11.1987",
+    "birthtime": "23.15",
+    "languages": ["English","French"],
+    "gpa": 3.99
+}
